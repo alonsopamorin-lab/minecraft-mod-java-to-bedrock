@@ -1,0 +1,5 @@
+Continúa este proyecto de adaptación de Permadeath Java a Bedrock 26.52 para móvil. Lee primero LEEME_PRIMERO.md y ESTADO_Y_FALLOS.md. La base exacta es pack/, extraída del mcaddon v.4 adjunto; el JAR original está en originales/.
+
+No empieces de cero. Prioriza los fallos visuales confirmados: slime y zombi gigante no coinciden con su colisión; magma visible pero su alcance aparente es incorrecto; torso del devastador desubicado. Los ojos de la araña siguen pendientes de confirmación. Investiga causas compartidas antes de parchear cada mob por separado.
+
+No cambies ahora IA de saltos ni estadísticas y no extiendas modificaciones a mobs que el Java no toca. Conserva UUID y guardados. No des por resuelto un fallo porque pase un mock o un validador JSON. Distingue resultados comprobados, hipótesis y pruebas pendientes de Minecraft. Trabaja en una tanda pequeña para v.5, con versión visible en ambos paquetes y menú. Entrega el mcaddon y un resumen breve. El usuario tiene pocos tokens: evita pedir pruebas repetitivas y no prometas trabajar en segundo plano.
